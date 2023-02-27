@@ -117,3 +117,31 @@ p {
 #contact {
   margin: 70px;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 70px !important;
+  }
+
+  h2 {
+    font-size: 30px !important;
+  }
+
+  h3 {
+    font-size: 20px !important;
+  }
+
+  img {
+    display: none;
+  }
+
+  .app-title {
+    text-align: center;
+  }
+
+  .app-button {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+  }
+}
